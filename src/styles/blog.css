@@ -1,0 +1,15 @@
+.blog__heading{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.blog__cards{
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1000px){
+    .blog__cards{
+        align-items: center;
+        justify-content: center;
+    }
+}

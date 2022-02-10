@@ -1,0 +1,29 @@
+#maindiv {
+  margin-top: 80px;
+}
+
+.about__heading h2{
+    font-size: 1.8rem;
+    font-weight:700;
+}
+.sub_heading{
+    padding-left: 10px;
+}
+.sub_heading h3{
+    font-size: 1.2rem;
+    font-weight:700;
+}
+.heading__details{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+@media(max-width:1000px){
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

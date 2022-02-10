@@ -1,0 +1,28 @@
+#footer_head{
+    text-align: left;
+    padding: 0px 180px 0px 100px;
+}
+
+.row h5{
+    color: #fff;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+.para{
+    color: #ffffff80;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+.row li{
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+.row li a{
+    color: #ffffff80;
+    text-decoration: none;
+    line-height: 2rem;
+}

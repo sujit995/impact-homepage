@@ -1,0 +1,32 @@
+.myGreen {
+  background-color: #008374;
+  height: 80px;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#menu {
+  color: #fff;
+}
+.menuIcon {
+  color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 80%);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  .menuIcon {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  #menus {
+    display: none;
+  }
+}

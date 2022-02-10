@@ -1,0 +1,20 @@
+#carousel {
+  margin-top: 100px;
+  min-height: 500px;
+}
+
+#carousel-items {
+  padding-top: 80px;
+  justify-content: center;
+  line-height: 2rem;
+}
+
+#carousel-items p{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.person_image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}

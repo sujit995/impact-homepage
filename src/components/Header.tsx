@@ -1,33 +1,3 @@
-// import React from 'react';
-// import '../styles/navbar.css';
-// import { HiMenu } from "react-icons/hi"
-
-// const Navbar = () => {
-//   return (
-//   <div className="navbar">
-//       <div className="logo">
-//         <h1>Impact</h1>
-//       </div>
-//       <div className="menus">
-//         <ul>
-//             <li>Home</li>
-//            <select>
-//                <option value="menu1">Menu1</option>
-//                <option value="menu2">Menu2</option>
-//                <option value="menu3">Menu3</option>
-//            </select>
-//            <li>Services</li>
-//            <li>Blog</li>
-//            <li>About</li>
-//            <li>Contact Us</li>
-//         </ul>
-//       </div>
-//           <HiMenu className="menuIcon"/>
-//       </div>
-//   );
-// };
-
-// export default Navbar;
 
 
 import { HiMenu } from "react-icons/hi"
@@ -39,7 +9,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <Navbar bg="myGreen" variant="dark">
+    <Navbar className="myGreen" variant="dark">
        <Container>
           <Navbar.Brand href="#home" className="logo">Impact</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

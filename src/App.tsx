@@ -4,9 +4,12 @@ import AboutUs from './components/AboutUs';
 import Section from './components/Section';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
-import Header from './components/Header';
+
 import Watch from './components/Watch';
 import Carousel from './components/Carousel'
+import Header from './components/Header';
+
+
 function App() {
   return (
     <div className="App">
