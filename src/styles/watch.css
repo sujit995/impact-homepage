@@ -3,6 +3,10 @@
     padding-top: 120px;
 }
 
+.list{
+    list-style-type: none;
+    line-height: 2rem;
+}
 @media (max-width: 1000px) {
     .row1{
         display: flex;

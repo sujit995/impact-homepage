@@ -18,6 +18,7 @@
 }
 
 .bttnn {
+  margin-top: 40px;
   background-color: #f85a40; /* Green */
   border: none;
   color: white;
@@ -39,10 +40,11 @@
 }
 
 .sub-row {
-  border: 1px solid #dddddd;
+  border: 1px solid transparent;
+  background-color: #009080;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  min-height: 250px;
+  min-height: 300px;
   padding: 30px;
 }
 
@@ -53,6 +55,9 @@
 .icons {
   color: #fff;
   font-size: 3rem;
+}
+.info{
+    padding-left: 1rem;
 }
 .info h3 {
   color: #fff;
@@ -69,7 +74,7 @@
     display: none;
   }
   .columns {
-    width: 100%;
+    width: 80%;
   }
   .hero-intro h1 {
     font-size: 2rem;

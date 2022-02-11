@@ -27,8 +27,8 @@ const Header = (props: Props) => {
               <Nav.Link href="#pricing" id="menu">ContactUs</Nav.Link>
             </Nav>
           <Nav>
-          <HiMenu className="menuIcon"/>
-    </Nav>
+            <HiMenu className="menuIcon"/>
+          </Nav>
   </Navbar.Collapse>
   </Container>
     </Navbar>

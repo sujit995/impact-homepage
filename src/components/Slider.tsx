@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import '../styles/carousel.css';
+import '../styles/slider.css';
 
-export default function App() {
+
+export default function Slider() {
 return (
           <div className="container-fluid" style={{backgroundColor:'#ddddee'}} id="carousel">
               <Carousel>
@@ -34,3 +35,4 @@ return (
           </div>
 );
 }
+

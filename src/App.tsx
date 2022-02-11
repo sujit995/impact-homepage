@@ -4,10 +4,9 @@ import AboutUs from './components/AboutUs';
 import Section from './components/Section';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
-
 import Watch from './components/Watch';
-import Carousel from './components/Carousel'
 import Header from './components/Header';
+import Slider from './components/Slider';
 
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
       <AboutUs />
        <Section />
        <Watch />
-       <Carousel />
+       <Slider />
        <Blog />
       <Footer /> 
     </div>

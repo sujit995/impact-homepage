@@ -1,46 +1,8 @@
-// import React from 'react';
-// import "../styles/blog.css";
-
-
-
-// const Blog = () => {
-//   return (
-//   <div className="blog">
-//      <div className="blog__heading">
-//            <h1>Blog Posts</h1>
-//            <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit consequuntur.</p>
-//           </div>
-//           <div className="blog__cards">
-//             {
-//               data.map((item) => {
-//                 return(
-//                   <>
-//                   <div className="blog__card">
-//                   <img className="blog__img" src="images/post_2.jpg" alt="post" width="320" height="270"/>
-//                     <div className="cardBody">
-//                     <div className="meta">
-//                       <span>{item.time}</span>
-//                       <span>•</span>
-//                       <span>{item.comments}</span>
-//                     </div>
-//                   <h2>{item.notifications}</h2>
-//                   <p>{item.para}</p>
-//                   <p><a href="#" className="readMore"><span>Read more</span></a></p>
-//                   </div>
-//                   </div>
-//                   </>
-//                 )
-//               })
-//             }
-//       </div>
-//   </div>
-//   );
-// };
-
-// export default Blog;
 
 import { Row, Col, Card } from 'react-bootstrap';
 import '../styles/blog.css';
+import { BiChevronRight } from "react-icons/bi"
+
 
 type Props = {};
 
@@ -67,8 +29,8 @@ const data = [
 
 const Blog = (props: Props) => {
   return (
-  <div className="container">
-        <Row className="blog__heading">
+  <div className="container" style={{paddingBottom: "80px"}}>
+        <Row className="blog__heading" >
            <h1>Blog Posts</h1>
             <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit consequuntur.</p>
            </Row>
@@ -85,7 +47,7 @@ const Blog = (props: Props) => {
                         <Card.Text>
                           {item.para}
                         </Card.Text>
-                        <h6 style={{color:'orange'}}>Read More</h6>
+                        <h6 style={{color:'orange'}}>Read More<BiChevronRight /></h6>
                       </Card.Body>
                     </Card>
                    </>

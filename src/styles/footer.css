@@ -1,19 +1,12 @@
-#footer_head{
-    text-align: left;
-    padding: 0px 180px 0px 100px;
-}
 
 .row h5{
     color: #fff;
     text-align: left;
-    align-items: left;
-    justify-content: left;
+    margin-bottom: 20px;
 }
 .para{
     color: #ffffff80;
     text-align: left;
-    align-items: left;
-    justify-content: left;
 }
 .row li{
     text-align: left;
@@ -25,4 +18,21 @@
     color: #ffffff80;
     text-decoration: none;
     line-height: 2rem;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: left;
+    
+}
+
+.social_icon{
+    color: #fff;
+    background-color: #f85a40;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
 }
