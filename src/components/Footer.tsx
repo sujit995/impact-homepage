@@ -8,17 +8,17 @@ import { FaPinterest } from 'react-icons/fa';
 import '../styles/footer.css';
 
 const Footer = (): JSX.Element => <footer className="page-footer font-small blue pt-4"  style={{backgroundColor: 'black', minHeight: "450px"}}>
-    <div className="container-fluid text-center text-md-left">
+    <div className="container text-center text-md-left">
         <div className="row">
             <div className="col-md-5 mt-md-0" id="footer_head">
                 <h5 className="text-capitalize">About Impact</h5>
-                <p className="para">Here you can use rows and columns to organize your footer content.</p>
-                <ul className="social_icons">
-                    <li><FaInstagram className="social_icon"/></li>
-                    <li><FiTwitter className="social_icon"/></li>
-                    <li><FiFacebook className="social_icon"/></li>
-                    <li><FaLinkedinIn className="social_icon"/></li>
-                    <li><FaPinterest className="social_icon"/></li>
+                <p className="para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <ul className="list-unstyled float-left links" id="social_icons">
+                    <li><span><FaInstagram className="social_icon"/></span></li>
+                    <li><span><FiTwitter className="social_icon"/></span></li>
+                    <li><span><FiFacebook className="social_icon"/></span></li>
+                    <li><span><FaLinkedinIn className="social_icon"/></span></li>
+                    <li><span><FaPinterest className="social_icon"/></span></li>
                 </ul>
             </div>
 

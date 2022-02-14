@@ -15,10 +15,12 @@ const Header = (props: Props) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto" id="menus">
-              <Nav.Link href="#features" id="menu">Home</Nav.Link>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <Nav.Link href="#features" id="menu" active>Home</Nav.Link>
+              <NavDropdown title="Dropdown" id="collasible-nav-dropdown" style={{paddingLeft:'10px'}}>
                 <NavDropdown.Item href="#action/3.1">Menu 1</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Menu 2</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Menu 2
+                      
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Menu 3</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#pricing" id="menu">Service</Nav.Link>
