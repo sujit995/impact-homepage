@@ -52,7 +52,7 @@ const Slider = (props: Props) => {
 
   return (
 
-	<Carousel className="bg-light" style={{ color: 'black', padding: '100px 0', margin: '80px 0'}} activeIndex={index} onSelect={handleSelect}>
+	<Carousel variant="dark" className="bg-light" style={{ color: 'black', padding: '100px 0', margin: '80px 0'}} activeIndex={index} onSelect={handleSelect}>
 		<Carousel.Item>
 			<div className="md-5 mx-auto d-flex justify-content-center align-content-center" style={{ width: '110px', height: '110px'}}>
 				<img src='images/person_1.jpg' width="100px" className="my-auto" style={{ borderRadius: '50%', border: '5px solid #fff', boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)'}} />

@@ -28,15 +28,18 @@
 #social_icons span{
     background-color: #f85a40;
     border-radius: 50%;
-    margin: .2rem;
-    padding: .3rem;
-    padding-bottom: .4rem;
+    margin: .1rem;
+    padding-left: .5rem;
+    text-align: center;
+    width: 30px;
+    height: 30px;
 }
 
 .social_icon{
     color: #fff;
-    width: 20px;
-    font-size: .8rem;
+    font-size: .9rem;
     cursor: pointer;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }

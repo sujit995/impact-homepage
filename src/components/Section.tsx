@@ -20,36 +20,36 @@ const Section = (props: Props) => {
                 </Col>
                 </Row>
                 <Row className="row">
-                            <Col className="box-col">
-                                <div className="icon">
-                                <img src="images/24-hours-support.svg" alt="call" width="50" height="50"/>
-                                </div>
-                                <div className="box_info">
-                                    <h3>Professional</h3>
-                                    <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
-                                </div>
-                            </Col>
-                            <Col className="box-col">
-                                <div className="icon">
-                                <img src="images/good-review.svg" alt="review" width="50" height="50"/>
-                                </div>
-                                <div className="box_info">                         
-                                    <h3>Good Review</h3>
-                                    <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
-                                </div>
-                            </Col>
-                            <Col className="box-col">
-                                <div className="icon">
-                                <img src="images/quotation.svg" alt="review" width="50" height="50"/>
-                                </div>
-                                <div className="box_info">
-                                    <h3>24/7 support</h3>
-                                    <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
-                                </div>
-                            </Col>
-                        </Row>
+                    <Col className="box-col">
+                        <div className="icon">
+                        <img src="images/24-hours-support.svg" alt="call" width="50" height="50"/>
+                        </div>
+                        <div className="box_info">
+                            <h3>Professional</h3>
+                            <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
+                        </div>
+                    </Col>
+                    <Col className="box-col">
+                        <div className="icon">
+                        <img src="images/good-review.svg" alt="review" width="50" height="50"/>
+                        </div>
+                        <div className="box_info">                         
+                            <h3>Good Review</h3>
+                            <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
+                        </div>
+                    </Col>
+                    <Col className="box-col">
+                        <div className="icon">
+                        <img src="images/quotation.svg" alt="review" width="50" height="50"/>
+                        </div>
+                        <div className="box_info">
+                            <h3>24/7 support</h3>
+                            <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
+                        </div>
+                    </Col>
+                </Row>
             </div>
-  </div>
+       </div>
   );
 };
 

@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import '../styles/watch.css';
-import { BsPlayCircle } from "react-icons/bs";
 import { TiTick } from "react-icons/ti";
 import { RiPlayFill } from "react-icons/ri";
 import ModalVideo from 'react-modal-video';
@@ -18,9 +17,9 @@ const Watch = (props: Props) => {
 						<Col className="col-lg-7" id="col1">
 							<img src="images/hero-min.jpg" alt="Image" className="img-fluid" style={{ borderRadius:'5px', backgroundColor: 'rgba()'}}/>
 							<ModalVideo id="KI2lsdXJQ40" channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />	
-							<div className="content">
-								<div className="play" onClick={()=> setOpen(true)}><RiPlayFill style={{fontSize:'25px', marginBottom:'10px'}}/></div>
-							</div>
+								<div className="content">
+									<div className="play" onClick={()=> setOpen(true)}><RiPlayFill style={{fontSize:'25px', marginBottom:'10px'}}/></div>
+								</div>
 						</Col>	
 						<Col className="col-lg-4 justify-content-left">
 							<h2 style={{ fontSize:'2rem', fontWeight: 'bold'}}>Get Started with Impact</h2>

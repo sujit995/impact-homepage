@@ -44,14 +44,14 @@ const Blog = (props: Props) => {
                     return(
                       <>
                       <Card style={{ width: '22rem', border: 'none' }}>
-                          <Card.Img variant="top" src={item.img} style={{borderRadius: '10px'}}/>
+                          <Card.Img variant="top" src={item.img} style={{borderRadius: '10px', cursor: 'pointer'}}/>
                           <Card.Body>
-                            <Card.Title style={{fontSize:"1rem", color: '#7a7a7a'}}>{item.time} . {item.comments}</Card.Title>
-                            <Card.Title style={{fontWeight:"700"}}>{item.title}</Card.Title>
-                            <Card.Text>
+                            <Card.Title style={{fontSize:"1rem", color: '#7a7a7a', cursor: 'pointer', fontWeight: '400'}}>{item.time} . {item.comments}</Card.Title>
+                            <Card.Title style={{fontWeight:"700", cursor: 'pointer'}}>{item.title}</Card.Title>
+                            <Card.Text style={{lineHeight:"1.8rem"}}>
                               {item.para}
                             </Card.Text>
-                            <h6 style={{color:'orange'}}>Read More<BiChevronRight /></h6>
+                            <h6 style={{color:'orange', cursor: 'pointer'}}>Read More<BiChevronRight /></h6>
                           </Card.Body>
                         </Card>
                       </>

@@ -1,0 +1,29 @@
+.sidebar{
+    width: 50%;
+}
+#side_menu{
+    padding-left: 25px;  
+}
+
+.sidebar_menu{
+    color:black;
+}
+.sidebar_menu:hover{
+    color: orangered;
+}
+.menuIcon {
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 70%);
+    font-size: 2.3rem;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 1000px) {
+    .menuIcon {
+      display: none;
+    }
+  }

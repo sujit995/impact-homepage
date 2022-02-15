@@ -4,6 +4,7 @@ import { FiTwitter } from 'react-icons/fi';
 import { FiFacebook } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaPinterest } from 'react-icons/fa';
+import { FaDribbble } from 'react-icons/fa';
 
 import '../styles/footer.css';
 
@@ -13,12 +14,13 @@ const Footer = (): JSX.Element => <footer className="page-footer font-small blue
             <div className="col-md-5 mt-md-0" id="footer_head">
                 <h5 className="text-capitalize">About Impact</h5>
                 <p className="para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <ul className="list-unstyled float-left links" id="social_icons">
-                    <li><span><FaInstagram className="social_icon"/></span></li>
-                    <li><span><FiTwitter className="social_icon"/></span></li>
-                    <li><span><FiFacebook className="social_icon"/></span></li>
-                    <li><span><FaLinkedinIn className="social_icon"/></span></li>
-                    <li><span><FaPinterest className="social_icon"/></span></li>
+                <ul className="list-unstyled float-left links mt-4" id="social_icons">
+                    <span><li><FaInstagram className="social_icon"/></li></span>
+                    <span><li><FiTwitter className="social_icon"/></li></span>
+                    <span><li><FiFacebook className="social_icon"/></li></span>
+                    <span><li><FaLinkedinIn className="social_icon"/></li></span>
+                    <span><li><FaPinterest className="social_icon"/></li></span>
+                    <span><li><FaDribbble className="social_icon"/></li></span>
                 </ul>
             </div>
 

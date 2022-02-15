@@ -11,17 +11,17 @@ const Home = (props: Props) => {
   return (
     <div className="container-fluid" id="contain">
         <Row className="rows">
-            <Col className="img-columns">
+            <Col className="col-lg-4">
                 <img className="img" src="images/persons-group-1.png" alt="photo" />
             </Col>
-            <Col className="columns">
+            <Col className="col-lg-4">
                 <div className="hero-intro">
                     <h1>Let's growth your business with us</h1>
  				    <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
                     <button className="bttnn">Get In Touch</button>
                 </div>
             </Col>
-            <Col className="img-columns">
+            <Col className="col-lg-4">
                 <img className="img" src="images/persons-group-2.png" alt="photo" />
             </Col>
         </Row>
