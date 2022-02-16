@@ -13,7 +13,6 @@ const Header = (props: Props) => {
 
   return (
     <>
-    
     <Navbar className="myGreen" variant="dark">
        <Container>
           <Navbar.Brand href="#home" className="logo">Impact</Navbar.Brand>

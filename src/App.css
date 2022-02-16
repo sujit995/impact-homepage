@@ -1,8 +1,5 @@
 
-/* * {
-    box-sizing: border-box;
+.App{
+    overflow-x:'hidden';
+    position:'relative'
 }
-body{
-    width: 100vw;
-    height: 100vh;
-} */

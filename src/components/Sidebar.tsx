@@ -55,12 +55,12 @@ function Sidebar() {
         onMouseOver={buttonSqueeze}
         onMouseLeave={buttonUnSqueeze}
         onClick={handleShow}
-        style={{ border: 'none', padding: '0', backgroundColor: 'rgba(0, 0, 0, 0)' }}
-      >
+        style={{ border: 'none', backgroundColor: 'rgba(0, 0, 0, 0)' }}>
         <div style={{ backgroundColor: 'white', width: '30px', height: '2px', margin: '9px 0' }}></div>
         <div style={{ backgroundColor: 'white', width: '30px', height: '2px', margin: '9px 0' }}></div>
         <div style={{ backgroundColor: 'white', width: '30px', height: '2px', margin: '9px 0' }}></div>
       </button>
+        {/* <HiMenu className="menuIcon" onClick={handleShow}/> */}
         <Offcanvas show={show} onHide={handleClose} placement="end" className="sidebar">
           <Offcanvas.Header closeButton >
             <Offcanvas.Title></Offcanvas.Title>
@@ -104,7 +104,7 @@ function Sidebar() {
                 <li>Menu Three</li>
               </ul>
 
-            </li>
+            </li> 
               <Nav.Link href="#pricing" className="sidebar_menu">Service</Nav.Link>
               <Nav.Link href="#pricing" className="sidebar_menu">Blog</Nav.Link>
               <Nav.Link href="#pricing" className="sidebar_menu">About</Nav.Link>

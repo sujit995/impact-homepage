@@ -12,14 +12,20 @@
     color: orangered;
 }
 .nav-toggler {
+    color: #fff;
     display: block;
     position: absolute;
     top: 0;
     right: 0;
     transform: translate(-100%, 70%);
+    font-size: 2.3rem;
     cursor: pointer;
   }
   
+  .btn-close {
+    box-shadow: none !important;
+  }
+
   @media (min-width: 1000px) {
     .nav-toggler {
       display: none;
