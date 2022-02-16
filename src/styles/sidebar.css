@@ -11,19 +11,17 @@
 .sidebar_menu:hover{
     color: orangered;
 }
-.menuIcon {
-    color: #fff;
+.nav-toggler {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
     transform: translate(-100%, 70%);
-    font-size: 2.3rem;
     cursor: pointer;
   }
   
   @media (min-width: 1000px) {
-    .menuIcon {
+    .nav-toggler {
       display: none;
     }
   }
