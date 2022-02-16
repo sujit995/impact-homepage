@@ -13,6 +13,7 @@ const Header = (props: Props) => {
 
   return (
     <>
+    
     <Navbar className="myGreen" variant="dark">
        <Container>
           <Navbar.Brand href="#home" className="logo">Impact</Navbar.Brand>
@@ -22,18 +23,18 @@ const Header = (props: Props) => {
               <Nav.Link href="#features" id="menu" active>Home</Nav.Link>
               <li className="nav-item dropdown" style={{ position: 'relative' }} >
                 <a className='nav-link' style={{ paddingLeft: '30px'}}>Dropdown<BiChevronDown /></a>
-                <ul className="dropdown-1" style={{ listStyle: 'none' }}>
-                  <li className="menu">Menu One</li>
-                  <li className="menu">
-                    <span>Menu Two </span>
+                <ul className="dropdown-1" style={{ listStyle: 'none', cursor:'pointer' }}>
+                  <li style={{ padding: '0 30px' }}>Menu One</li>
+                  <li style={{ padding: '0 30px', position: 'relative', paddingTop:'10px' }}>
+                    <span>Menu Two &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     <BiChevronRight />
-                    <ul className="dropdown-2" style={{ listStyle: 'none' }}>
-                      <li className="menu">Sub Menu One</li>
+                    <ul className="dropdown-2" style={{ listStyle: 'none', width: '200px', cursor:'pointer' }}>
+                      <li>Sub Menu One</li>
                       <li className="menu">Sub Menu Two</li>
                       <li className="menu">Sub Menu Three</li>
                     </ul>
                   </li>
-                  <li className="menu">Menu Three</li>
+                  <li style={{ padding: '0 30px', paddingTop:'10px' }}>Menu Three</li>
                 </ul>
               </li>
               <Nav.Link href="#pricing" id="menu">Service</Nav.Link>
