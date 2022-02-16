@@ -12,7 +12,7 @@ const Footer = (): JSX.Element => <footer className="page-footer font-small blue
     <div className="container text-center text-md-left">
         <div className="row">
             <div className="col-md-5 mt-md-0" id="footer_head">
-                <h5 className="text-capitalize">About Impact</h5>
+                <h5 className="text-capitalize">About Impact<span style={{color:'#f65a40'}}>.</span></h5>
                 <p className="para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <ul className="list-unstyled float-left links mt-4" id="social_icons">
                     <span><li><FaInstagram className="social_icon"/></li></span>

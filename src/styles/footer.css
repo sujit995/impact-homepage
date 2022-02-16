@@ -3,6 +3,9 @@
     color: #fff;
     text-align: left;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 .para{
     color: hsla(0, 0%, 100%, 0.502);
